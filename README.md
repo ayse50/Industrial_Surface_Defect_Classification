@@ -20,7 +20,7 @@ The model utilizes the **NEU Surface Defect Database**, an industry benchmark fo
 * **Preprocessing:** Resized to 224x224 pixels, normalized, and converted to grayscale.
 
 ### Datavisualization
-
+![class_distribution](class_distribution.png)
 
 ## 📊 4. Evaluation and Insights
 Model performance is measured on an independent test dataset (Hold-out set).
@@ -30,6 +30,7 @@ Model performance is measured on an independent test dataset (Hold-out set).
 
 ### 📉 Analysis of Results
 Evaluation is conducted via a **Confusion Matrix** to determine if certain defect patterns
+![Confusion Matrix](confusion_matrix_industrial_defects.png)
 
 ## 🚀 6. Future Improvements & Road Map
 This is a **First Draft** of the project. In professional industrial environments, the following enhancements would be implemented:
